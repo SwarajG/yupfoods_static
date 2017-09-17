@@ -1,0 +1,279 @@
+@font-face {
+  font-family: 'font1';
+  src: url('../static/copperplate_gothic_bold_regular.ttf');
+}
+@font-face {
+  font-family: 'font2';
+  src: url('../static/copperplate_gothic _light_regular.ttf');
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'font1';
+}
+
+body {
+  font-family: 'font2';
+}
+
+/** First slide **/
+.firstSlide {
+  background: url(../static/center.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.firstSlideNavbarWrapper {
+  width: 100%;
+  height: 100px;
+  position: relative;
+}
+
+.firstSlideNavbar {
+  position: absolute;
+  list-style-type: none;
+  top: 100px;
+  left: 0;
+  right: 0;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  padding-left: 150px;
+  padding-right: 150px;
+}
+
+.firstSlideNavbarList {
+  display: inline-block;
+  padding-left: 20px;
+  vertical-align: middle;
+  min-width: 100px;
+}
+
+.bulletStyle {
+  line-height: 100px;
+  max-height: 25px;
+}
+
+.socialIconStyle {
+  line-height: 100px;
+  max-height: 25px;
+}
+
+.navbarNameStyle {
+  vertical-align: top;
+  display: inline-block;
+  height: 25px;
+  line-height: 25px;
+  padding-left: 8px;
+}
+
+.socialNavList {
+  width: 50px;
+  min-width: 50px;
+}
+
+.logo {
+  max-height: 100px;
+  width: auto;
+  border-radius: 10px;
+  margin-top: 6px;
+  margin-bottom: 6px;
+}
+
+/** Second slide **/
+.secondSlideWrapper {
+  background: url(../static/aboutus_backdrop.png) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.secondSlideTitleStyle {
+  text-align: center;
+  padding: 12px;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #108ee9;
+  word-spacing: 1px;
+  letter-spacing: 1.2px;
+  font-family: 'font1';
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.secondSlideContent {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+.secondSlideBox {
+  padding: 30px 10px 0;
+  font-size: 16px;
+}
+
+.upandupLogoStyle {
+  max-height: 340px;
+  width: auto;
+  padding: 10px;
+}
+
+.sectionTitle {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.sectionDetail {
+  font-size: 16px;
+  text-align: center;
+}
+
+/** Third slide **/
+.thirdSlideWrapper {
+  background: url(../static/aboutus_backdrop.png) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.thirdSectionTitle {
+  text-align: center;
+  padding: 12px;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #108ee9;
+  word-spacing: 1px;
+  letter-spacing: 1.2px;
+  font-family: 'font1';
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.fouderImage {
+  max-width: 250px;
+  max-height: 220px;
+}
+
+.founderBox {
+  padding: 10px 20px 10px;
+}
+
+.founderName {
+  font-size: 18px;
+  margin-bottom: 15px;
+  font-family: 'font1';
+}
+
+.founderDescription {
+  font-size: 15px;
+  margin-bottom: 15px;
+}
+
+.founderEd {
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.socialFounderIconStyle {
+  max-height: 40px;
+  width: auto;
+  padding: 5px 10px;
+}
+
+/** Fourth slide **/
+.fourthSlideWrapper {
+  background: url(../static/aboutus_backdrop.png) no-repeat center center fixed;
+  background-size: cover;
+  color: white;
+  height: 100%;
+  padding-top: 40px;
+}
+
+.fourthSectionTitle {
+  text-align: center;
+  padding: 12px 24px;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  color: #108ee9;
+  word-spacing: 1px;
+  letter-spacing: 1.2px;
+  font-family: 'font1';
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.blogWrapper p {
+  min-height: 100px;
+}
+
+.blogWrapper:last-child {
+  margin-right: 20px;
+}
+
+.noLineLink {
+  text-decoration: none;
+  color: #108ee9;
+  display: block;
+}
+
+.noLineLink:hover {
+  color: #108ee9;
+}
+
+.blogWrapper {
+  height: 150px !important;
+  padding: 20px 0 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #108ee9;
+  border-radius: 3px;
+  margin-left: 15px;
+}
+
+.infoBoxStyle {
+  padding: 20px;
+}
+
+.emailLink {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.emailLink:hover {
+  color: #FFF;
+}
+
+.sliderStyle {
+  padding: 20px 80px 20px;
+}
+
+/** Media rules **/
+@media screen and (max-width: 480px) {
+  .firstSlideNavbar {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  .firstSlideNavbarList:first-child {
+    display: flex;
+    justify-content: center;
+  }
+  .firstSlideNavbarList {
+    min-width: 50px;
+  }
+  .secondSlideContent {
+    /*font-size: 10px;*/
+  }
+  .logo {
+    max-height: 60px;
+    width: auto;
+    display: block;
+  }
+  .blogWrapper {
+    margin-left: 5px;
+  }
+  .socialNavList {
+    width: 80px;
+  }
+}
